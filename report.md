@@ -101,7 +101,7 @@ Trajectory History (deque, last 10 frames)
 - **Labelling:** All images containing the ball were annotated with bounding boxes using Roboflow. Background images without the ball were included as unannotated negative samples to reduce false positives.
 
 ![Dataset samples](figures/dataset_samples.jpg)
-*Figure 1: Sample annotated images from training dataset — bounding boxes around ball*
+*Figure 1: Sample images from training dataset*
 
 ---
 
@@ -147,7 +147,7 @@ Trajectory History (deque, last 10 frames)
 ![Confusion Matrix](figures/confusion_matrix_normalized.png)
 *Figure 5: Normalised confusion matrix*
 
-![Validation predictions](figures/val_batch0_pred.jpg)
+![Validation predictions](figures/val_batch0_labels.jpg)
 *Figure 6: Model predictions on unseen validation images*
 
 ---
