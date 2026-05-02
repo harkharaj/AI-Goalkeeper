@@ -1,0 +1,10 @@
+AI Goalkeeper
+
+A real-time autonomous goalkeeper system built on Raspberry Pi 4 that uses an on-device YOLOv8n ONNX model to detect an incoming ball, predict its future position using trajectory regression and actuate a linear stepper motor driven blocker to intercept it — all with ~50 ms inference latency and no cloud dependency. This is a proof of concept demonstrating that edge AI inference combined with classical prediction algorithms can drive real-time physical actuation on consumer-grade hardware.
+
+Parmar Mitulkumar - Mobility Engineering - mitulkumarp@iisc.ac.in - Inputs in Ball Prediction Algorithm, Developing calibration file
+Udhay - Mobility Engineering - udhay1@iisc.ac.in - Developing motor control file
+Harkharaj Bharali - Mobility Engineering - harkharajb@iisc.ac.in - Model Training, Developing Ball Prediction Algorithm
+Kedam Ajay Kumar - Mobility Engineering - ajaykumark@iisc.ac.in - Dataset Collection, Annotations
+
+Github Link - https://github.com/mitul-p/AI-Goalkeeper

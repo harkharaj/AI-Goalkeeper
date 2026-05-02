@@ -1,0 +1,7 @@
+ultralytics
+onnxruntime
+opencv-python
+picamera2
+flask
+numpy
+RPi.GPIO

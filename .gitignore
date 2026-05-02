@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.egg-info/
+calibration.json
+training/runs/detect/ball_detector/weights/best_saved_model/
+training/runs/detect/ball_detector/train_batch*.jpg
+training/runs/detect/ball_detector/val_batch1*
+training/runs/detect/ball_detector/val_batch2*
